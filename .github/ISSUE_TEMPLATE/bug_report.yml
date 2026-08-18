@@ -1,0 +1,126 @@
+name: Bug report
+description: Something in OmniBlock is broken, or a site doesn't work correctly with it.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Before filing, please check whether lowering
+        the protection level or trusting the affected site fixes it — see the
+        [FAQ](../../docs/FAQ.md#what-if-a-site-breaks). If it does, mention that
+        below anyway; it's useful triage information, not a reason not to report.
+
+        Found a security vulnerability instead? Please don't file it here — see
+        [SECURITY.md](../../SECURITY.md) for how to report it privately.
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: Which browser were you using?
+      options:
+        - Chrome
+        - Edge
+        - Brave
+        - Vivaldi
+        - Opera
+        - Firefox
+        - Other Chromium-based browser
+    validations:
+      required: true
+
+  - type: input
+    id: browser-version
+    attributes:
+      label: Browser version
+      description: "Chrome/Edge/Brave/etc.: chrome://version or the equivalent. Firefox: about:support."
+      placeholder: e.g. 142.0.7000.0
+    validations:
+      required: true
+
+  - type: input
+    id: omniblock-version
+    attributes:
+      label: OmniBlock version
+      description: Dashboard → About, or the version shown on the extensions page.
+      placeholder: e.g. 0.12.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: level
+    attributes:
+      label: Protection level
+      description: Whatever level you were running when this happened.
+      options:
+        - "0 — Off"
+        - "1 — Light"
+        - "2 — Balanced (default)"
+        - "3 — Strict"
+        - "4 — Aggressive"
+        - "5 — Fortress"
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: site
+    attributes:
+      label: Site affected
+      description: The URL where this happened. If it's not site-specific, say so.
+      placeholder: https://example.com/page
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+      description: Be as specific as you can — a broken layout, a missing image, a feature that doesn't respond, a console error, etc.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: persists-lower-level
+    attributes:
+      label: Does it still happen at a lower protection level?
+      description: Try level 1, or level 0 with the Security Shield on. This narrows down which filter component is responsible.
+      options:
+        - "Yes, happens even at level 1 or 0"
+        - "No, it goes away at a lower level"
+        - Didn't try
+    validations:
+      required: true
+
+  - type: dropdown
+    id: persists-trusted
+    attributes:
+      label: Does it still happen with the site trusted?
+      description: Trust the site from the popup, then reload the page.
+      options:
+        - "Yes, happens even when the site is trusted"
+        - "No, it goes away once the site is trusted"
+        - Didn't try
+    validations:
+      required: true
+
+  - type: textarea
+    id: console
+    attributes:
+      label: Console output
+      description: Open DevTools (F12) → Console on the affected page, and paste anything relevant. Leave blank if there's nothing there.
+      render: text
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Anything else?
+      description: Screenshots, a specific element that's affected, whether this is new or has always happened — anything that might help.

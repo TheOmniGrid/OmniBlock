@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Frequently asked questions
+    url: ../../docs/FAQ.md
+    about: Read this before filing — installation, breakage, privacy, and licensing questions are answered here.
+  - name: Support OmniBlock on Ko-fi
+    url: KOFI_LINK
+    about: One-off donations and a small membership tier.
+  - name: Become a patron
+    url: PATREON_LINK
+    about: Ongoing support, with input into what gets built next.
