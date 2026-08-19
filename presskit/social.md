@@ -20,15 +20,15 @@ image: a dial, a shield, no clutter.
 ## Short (Mastodon, Bluesky long post)
 
 > OmniBlock is a content blocker for Chrome, Edge, Brave, Vivaldi, Opera,
-> and Firefox — 660,916 domains blocked by default, an independent
+> and Firefox — 623,896 domains blocked by default, an independent
 > Security Shield that's on even at level 0, and no telemetry of any kind.
 > It's free software (GPL-3.0-or-later) and donationware: not on the
 > Chrome Web Store, not on AMO, supported directly by the people who use
 > it. Installation takes about a minute. KOFI_LINK · PATREON_LINK
 
-**Screenshot:** `dashboard-stats.png` — the local-only stats page backs up
-the "no telemetry" claim with something visual: your own numbers, on your
-own machine.
+**Screenshot:** `dashboard-lists.png` — every built-in list with its real
+rule count, and whether it is active at the level you picked. Concrete,
+and it shows the product doing the thing rather than a marketing frame.
 
 ---
 
@@ -70,7 +70,7 @@ and what it costs.
 > off should never turn phishing protection off with it; that's not a
 > default you have to remember to set.
 >
-> Underneath: 660,916 domains blocked by default and up to 761,672 at the
+> Underneath: 623,896 domains blocked by default and up to 694,738 at the
 > highest level, compiled from fourteen maintained filter sources. Custom
 > list subscriptions, a My Filters editor with uBO-style syntax, an
 > element picker, per-site trust, import/export, and a full interface in

@@ -3,8 +3,8 @@
 OmniBlock is not on the Chrome Web Store or on addons.mozilla.org — see
 ["Why isn't this on the stores?"](FAQ.md#why-isnt-this-on-the-stores) if you
 want the reasoning. Supporters get a packaged, ready-to-install build
-directly: a `.zip` for Chromium browsers and a Mozilla-signed `.xpi` for
-Firefox. Installing either takes about a minute.
+directly: a `.zip` for Chromium browsers and an `.xpi` for Firefox (see the
+signing-status note below). Installing either takes about a minute.
 
 Haven't got a build yet? See [Get OmniBlock](../README.md#get-omniblock) in
 the main README.
@@ -16,7 +16,7 @@ OmniBlock isn't on the Web Store, "Load unpacked" through Developer mode is
 how every Chromium install works — including the maintainer's own.
 
 1. **Unzip** the build you received (something like
-   `omniblock-chromium-0.12.0.zip`) into a folder you intend to keep. Don't
+   `omniblock-0.12.0-chrome.zip`) into a folder you intend to keep. Don't
    extract it somewhere temporary — the folder's location is part of how
    Chrome identifies the extension (see "Updating" below).
 2. Open `chrome://extensions` — `edge://extensions` on Edge,
@@ -55,17 +55,22 @@ the FAQ).
 
 ## Firefox
 
-OmniBlock's Firefox build is signed by Mozilla through **unlisted
+Firefox requires add-ons to be signed by Mozilla. OmniBlock uses **unlisted
 (self-distribution) signing** — the same signing pipeline Mozilla uses for
-add-ons listed on addons.mozilla.org, just without a public listing. A
-Mozilla-signed `.xpi` installs in ordinary release Firefox exactly like any
-add-on from the store: no developer mode, no flag to flip, no separate
-Firefox channel required. This is verified against Mozilla's own Extension
-Workshop documentation on self-distribution and signing.
+add-ons listed on addons.mozilla.org, just without a public listing. Once a
+build is signed, the `.xpi` installs in ordinary release Firefox exactly like
+any add-on from the store: no developer mode, no flag to flip, no separate
+Firefox channel. This is verified against Mozilla's own Extension Workshop
+documentation on self-distribution and signing.
+
+> **Signing status.** Signing is not yet set up. Until it is, the Firefox build
+> ships unsigned and installs only in Firefox Developer Edition, Nightly or ESR,
+> with `xpinstall.signatures.required` set to `false` in `about:config`. Check
+> what you received: an `.xpi` is signed, a `.zip` is not yet.
 
 Requires Firefox 128 or later.
 
-1. **Download** the `.xpi` you received (e.g. `omniblock-firefox-0.12.0.xpi`)
+1. **Download** the `.xpi` you received (e.g. `omniblock-0.12.0-firefox.xpi`)
    and save it somewhere you can find it.
 2. In Firefox, open the menu and go to **Add-ons and themes** (or open
    `about:addons` directly).
@@ -95,9 +100,14 @@ same add-on ID and updates OmniBlock in place — your settings carry over.
 ## Verifying the install worked
 
 Click the shield icon in your toolbar. You should see the OmniBlock popup:
-your current protection level, the Security Shield toggle, and a running
-count for the page you're on. Visit a page with ads or trackers and the
-count should climb within a second or two.
+your current protection level and the Security Shield toggle.
+
+Now visit a page with ads or trackers. On **Chromium**, a number appears on
+the toolbar icon itself — that is the browser's own count of what OmniBlock
+blocked on this page, and it climbs within a second or two. The popup's
+"This page" tile shows an em dash there, because Chromium does not hand
+per-request detail to extensions without a permission OmniBlock declines to
+request. On **Firefox**, that same count also appears inside the popup.
 
 ## Where the dashboard lives
 

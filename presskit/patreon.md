@@ -16,7 +16,7 @@ built by one person and kept alive by the people who use it.
 
 ## What OmniBlock is
 
-OmniBlock blocks 660,916 domains out of the box and up to 761,672 at its
+OmniBlock blocks 623,896 domains out of the box and up to 694,738 at its
 highest level, compiled from fourteen maintained filter sources. It's free
 software (GPL-3.0-or-later) and donationware: it isn't on the Chrome Web
 Store or addons.mozilla.org, and the only way to get a build is directly
@@ -46,31 +46,24 @@ listing.
 
 - The packaged build for Chromium and Firefox, every release.
 - The complete source, as the GPL requires.
-- A quiet thank-you in the supporter list on the project's About page (opt-in).
+- Release notes explaining what actually changed, not a version bump.
 
 ### Tier 2 — Signal · $7/month
 
 Everything in Shield, plus:
 
 - Release-candidate builds a few days before general supporters get them,
-  so you can try what's coming and say something before it ships.
-- A vote on the public roadmap board when priorities are being weighed.
-- Your name in the README's supporter section (opt-in).
+  so you can try what is coming and say something before it ships.
+- A vote in the patron polls that decide what gets built next.
 
 ### Tier 3 — Vanguard · $15/month
 
 Everything in Signal, plus:
 
-- Direct priority on bug reports and questions you file — not a faster
-  SLA promise, just first look.
-- Input on one filter-list or feature decision per quarter, discussed
-  directly rather than through a vote.
-- A permanent line in the project's credits, not just the current
-  supporter list (opt-in either way).
-
-[Exact tier mechanics — RC build delivery, roadmap board location, credits
-placement — depend on Patreon's tooling and should be confirmed before
-publishing.]
+- First look at the bug reports and questions you file. Not a faster
+  response promise — just yours read first.
+- A direct say on one filter-list or feature decision each quarter,
+  discussed rather than voted on.
 
 ## What you are not paying for
 

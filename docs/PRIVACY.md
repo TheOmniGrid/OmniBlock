@@ -55,7 +55,9 @@ keep your blocklists current:
 - `secure.fanboy.co.nz` — the Fanboy cookie-notice list (part of the
   EasyList family)
 - `raw.githubusercontent.com` — uBlock Origin's `uAssets` filter lists,
-  its scriptlet/redirect resource library, and HaGeZi's DNS blocklists
+  uBlock Origin's scriptlet/redirect resource library (fetched from the
+  `@ghostery/adblocker` project's packaged mirror of it, at a pinned
+  commit), and HaGeZi's DNS blocklists
 
 **When this happens differs by platform.** On Chromium (Chrome, Edge,
 Brave, and similar), these built-in lists are compiled into the extension

@@ -1,3 +1,5 @@
+# NOTE BEFORE PUBLISHING: replace OWNER/REPO in the links below. Relative
+# links do not resolve from the issue-form page.
 name: Bug report
 description: Something in OmniBlock is broken, or a site doesn't work correctly with it.
 title: "[Bug]: "
@@ -8,11 +10,11 @@ body:
       value: |
         Thanks for reporting this. Before filing, please check whether lowering
         the protection level or trusting the affected site fixes it — see the
-        [FAQ](../../docs/FAQ.md#what-if-a-site-breaks). If it does, mention that
+        [FAQ](https://github.com/OWNER/REPO/blob/main/docs/FAQ.md#what-if-a-site-breaks). If it does, mention that
         below anyway; it's useful triage information, not a reason not to report.
 
         Found a security vulnerability instead? Please don't file it here — see
-        [SECURITY.md](../../SECURITY.md) for how to report it privately.
+        [SECURITY.md](https://github.com/OWNER/REPO/blob/main/SECURITY.md) for how to report it privately.
 
   - type: dropdown
     id: browser

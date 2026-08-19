@@ -27,7 +27,7 @@ membership gets you:
 
 - The packaged build for Chromium and Firefox, every release.
 - The complete source, as the GPL requires.
-- A quiet thank-you in the supporter list on the project's About page (opt-in).
+- Release notes explaining what actually changed, not a version bump.
 
 Higher tiers with earlier builds and roadmap input live on
 [Patreon](PATREON_LINK), if that's more your speed.

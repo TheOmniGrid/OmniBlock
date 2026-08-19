@@ -28,9 +28,9 @@ Part of the [OmniVex](#the-omnivex-suite) suite.
 
 ## What it does
 
-OmniBlock blocks **660,916 domains** out of the box and **761,672** at its
-highest level — ads, trackers, malware, phishing, scam and fake-shop domains,
-compiled from fourteen maintained filter sources.
+OmniBlock blocks **623,896 distinct domains** at its default setting and
+**694,738** at its highest level — ads, trackers, malware, phishing, scam and
+fake-shop domains, compiled from fourteen maintained filter sources.
 
 It is built around one idea: blocking should be something you *tune*, not
 something you fight. One dial, six levels, and a security shield that stays on
@@ -38,14 +38,19 @@ even when you turn everything else off.
 
 ### Six protection levels
 
-| Level | | What it blocks | Domains |
+| Level | | What it blocks | Distinct domains |
 |---|---|---|---:|
-| 0 | **Off** | Blocking disabled — the shield stays on | 389,588 |
-| 1 | **Light** | Ads only, maximum compatibility | 474,518 |
-| 2 | **Balanced** | Ads, trackers and privacy — the default | 660,916 |
-| 3 | **Strict** | Adds annoyances and cookie banners | 705,714 |
-| 4 | **Aggressive** | Broader blocking, some sites may need trusting | 731,466 |
-| 5 | **Fortress** | Maximum blocking — expect breakage | 761,672 |
+| 0 | **Off** | Blocking disabled — the shield stays on | 439,389 |
+| 1 | **Light** | Ads only, maximum compatibility | 508,560 |
+| 2 | **Balanced** | Ads, trackers and privacy — the default | 623,896 |
+| 3 | **Strict** | Adds annoyances and cookie banners | 645,103 |
+| 4 | **Aggressive** | Broader blocking, some sites may break | 669,328 |
+| 5 | **Fortress** | Maximum blocking — expect breakage | 694,738 |
+
+<sub>Counted from the compiled rulesets on 2026-08-19: unique domains across
+every list active at that level, deduplicated — the same domain appearing in
+three lists counts once. The upstream lists change daily, so read these as a
+snapshot rather than a constant.</sub>
 
 ### The Security Shield
 
@@ -60,7 +65,7 @@ you have to remember to set.
 - **Element picker** — point at anything on a page and hide it for good.
 - **Custom lists** — subscribe to any filter list by URL, in adblock or hosts syntax.
 - **My Filters** — write your own rules, validated line by line as you type.
-- **Statistics** — computed and stored **only on your machine**. On Firefox that includes a 30-day history and your most-blocked domains; on Chromium the browser keeps per-request detail to itself unless an extension asks for an extra permission, which OmniBlock deliberately does not, so you get totals and the live count on the toolbar badge.
+- **Statistics** — computed and stored **only on your machine**. On Firefox that means a running total, a 30-day history and your most-blocked domains. On Chromium the browser keeps per-request detail to itself unless an extension asks for an extra permission, which OmniBlock deliberately does not — so there the live per-page count on the toolbar badge is the whole picture, and the Stats page says so rather than inventing numbers it cannot see.
 - **Import / export** — your whole configuration as a single JSON file.
 - **Five languages** — see below.
 - **A dark, deliberate interface** — part of the OmniVex design language, not a template.
@@ -87,9 +92,13 @@ which is why it cannot slow your browsing the way a callback-based blocker can.
 On Firefox, it uses full request blocking with the Ghostery matching engine —
 unlimited rules and live list updates.
 
-Both paths ship with measured budgets rather than promises: engine memory, cache
-growth, cold-start time and per-navigation cost are benchmarked, and the build
-fails if they regress.
+Both paths ship with measured numbers rather than promises. A benchmark harness
+parses the real packaged filter text and reports engine memory, deserialize time,
+cosmetic-pass cost and on-disk size; three of those — engine size, deserialize
+time and packaged output size — are hard thresholds checked on a weekly run
+against every real upstream source, and a breach fails that run loudly. The
+ruleset compiler additionally fails the build outright if a level overruns
+Chromium's static rule budget.
 
 ### Positioning, honestly
 

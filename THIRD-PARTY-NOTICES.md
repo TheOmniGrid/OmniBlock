@@ -15,7 +15,7 @@ and had to be corrected (HaGeZi's DNS blocklists, noted below).
 | Component | License | Source |
 |---|---|---|
 | EasyList / EasyPrivacy | GPL-3.0-or-later, dual-licensed with CC BY-SA 3.0 (or later) | [easylist.to](https://easylist.to) |
-| Fanboy's Cookie Monster list | Part of the EasyList family; same licensing as above | [secure.fanboy.co.nz](https://secure.fanboy.co.nz) |
+| Fanboy's Cookie Monster list (Easylist Cookie List) | CC BY 3.0 | [secure.fanboy.co.nz](https://secure.fanboy.co.nz) — per the list's own `! License:` header. Part of the EasyList family, but licensed differently from EasyList and EasyPrivacy themselves. |
 | uBlock Origin's `uAssets` filter lists | GPL-3.0 | [github.com/uBlockOrigin/uAssets](https://github.com/uBlockOrigin/uAssets) |
 | uBlock Origin's scriptlet and redirect resource library | GPL-3.0 | Obtained via a pinned commit of the `@ghostery/adblocker` project's own packaged mirror of uBlock Origin's resources; see [github.com/gorhill/uBlock](https://github.com/gorhill/uBlock) for the original |
 | HaGeZi's DNS Blocklists | GPL-3.0 | [github.com/hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists), verified directly against the repository's own `LICENSE` file — some third-party summaries of this project describe it as CC BY-NC-SA, which does not match what the repository itself declares |
@@ -29,12 +29,17 @@ packaging; see [SECURITY.md](SECURITY.md) for why.
 
 | Package | License | Source |
 |---|---|---|
-| `@ghostery/adblocker`, `@ghostery/adblocker-webextension` | MPL-2.0 | [github.com/ghostery/adblocker](https://github.com/ghostery/adblocker) |
+| `@ghostery/adblocker`, `@ghostery/adblocker-webextension`, and the `@ghostery/*` runtime packages they pull in (`adblocker-content`, `adblocker-extended-selectors`, `url-parser`) | MPL-2.0 | [github.com/ghostery/adblocker](https://github.com/ghostery/adblocker) |
+| `@remusao/guess-url-type`, `@remusao/small`, `@remusao/smaz` — compression and URL helpers the engine depends on | MPL-2.0 | [github.com/remusao](https://github.com/remusao) |
+| `webextension-polyfill` | MPL-2.0 | [github.com/mozilla/webextension-polyfill](https://github.com/mozilla/webextension-polyfill) |
 | `tldts` (and `tldts-core`, `tldts-experimental`) | MIT | [github.com/remusao/tldts](https://github.com/remusao/tldts) |
+| `svelte` — the UI framework the popup and dashboard are built in; its client runtime is compiled into the shipped bundles | MIT | [github.com/sveltejs/svelte](https://github.com/sveltejs/svelte) |
 
 `@ghostery/adblocker` is the matching engine behind OmniBlock's Firefox
 build and its Chromium cosmetic-filtering path. The `tldts` family handles
-domain parsing for both.
+domain parsing for both. Svelte is listed because bundling strips its
+licence banner, so this file is the only place a recipient would learn of
+it — it is a build-time dependency whose runtime ships in the extension.
 
 ## Why OmniBlock itself is GPL-3.0-or-later
 

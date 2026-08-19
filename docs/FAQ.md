@@ -10,7 +10,8 @@ addons.mozilla.org exist to distribute software for free; asking people to
 pay somewhere else for something the store hands out at no cost doesn't
 work as a model. So builds go directly to supporters instead, through
 Ko-fi or Patreon, and installation takes one extra step: "Load unpacked"
-on Chromium, a signed `.xpi` on Firefox. See [INSTALL.md](INSTALL.md).
+on Chromium, an `.xpi` on Firefox once signing is in place. See
+[INSTALL.md](INSTALL.md).
 
 ## Is it really free software if I donate for it?
 
@@ -52,10 +53,14 @@ on Chromium that would not be true — see "Positioning, honestly" in the
 No, by construction. On Chromium, OmniBlock runs no JavaScript in the
 request path at all — blocking is handled by the browser's own native
 filtering engine from precompiled rulesets. On Firefox, it uses a
-benchmarked matching engine over full request blocking. Both paths ship
-with measured performance budgets — engine memory, cache growth,
-cold-start time, per-navigation cost — enforced by the build itself; a
-regression fails the build rather than shipping.
+benchmarked matching engine over full request blocking.
+
+Engine memory, deserialize time, cosmetic-pass cost and package size are
+measured against the real filter lists on a weekly job; three of them —
+engine size, deserialize time and packaged output size — are hard
+thresholds that fail that job if they regress. Two budgets that need a
+real browser profile, popup open time and cold-start engine load, are
+not yet measured; the harness says so rather than pretending otherwise.
 
 ## What data do you collect?
 
@@ -90,7 +95,13 @@ the site works again.
 
 Dashboard → Lists → **Add custom list**, then paste a URL in adblock or
 hosts syntax. Subscribed lists refresh automatically, with the previous
-good copy kept if a refresh ever fails. If you'd rather write rules
+good copy kept if a refresh ever fails.
+
+Two limits worth knowing before you rely on a large list: each subscribed
+list is capped at 50,000 domains, and the dashboard tells you when a list
+was truncated. On Chromium, only domain-style rules (`||example.com^`)
+and cosmetic rules from a subscribed list take effect — rules carrying
+options or paths need Firefox's engine, which has no such restriction. If you'd rather write rules
 yourself, use **My Filters** — a free-text editor with uBO-style syntax,
 validated line by line as you type.
 
