@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner-animated.gif" alt="OmniBlock — content blocker for Chromium and Firefox. Requests sweep in from the right; the ones the filter catches flare and die." width="100%">
+  <img src="assets/banner-animated.gif" alt="OmniBlock — Privacy-first blocking for Chromium and Firefox." width="100%">
 </p>
 
 <h1 align="center">OmniBlock</h1>
