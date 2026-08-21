@@ -6,7 +6,7 @@ want the reasoning. Supporters get a packaged, ready-to-install build
 directly: a `.zip` for Chromium browsers and an `.xpi` for Firefox (see the
 signing-status note below). Installing either takes about a minute.
 
-Haven't got a build yet? See [Get OmniBlock](../README.md#get-omniblock) in
+Haven't got a build yet? See [Get OmniBlock](README.md#get-omniblock) in
 the main README.
 
 ## Chromium — Chrome, Edge, Brave, Vivaldi, Opera
@@ -152,6 +152,6 @@ bug — see
 anything else: lower the protection level, or trust the site from the
 popup.
 
-**Still stuck?** [Open an issue](../../../issues/new/choose) with your
+**Still stuck?** [Open an issue](https://github.com/TheOmniGrid/OmniBlock/issues/new/choose) with your
 browser, browser version, and OmniBlock version — the bug report template
 asks for exactly what's useful here.

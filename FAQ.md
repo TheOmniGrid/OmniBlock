@@ -1,7 +1,7 @@
 # Frequently asked questions
 
 Short, direct answers. If your question isn't here, [open an
-issue](../../../issues/new/choose).
+issue](https://github.com/TheOmniGrid/OmniBlock/issues/new/choose).
 
 ## Why isn't this on the stores?
 
@@ -11,7 +11,7 @@ pay somewhere else for something the store hands out at no cost doesn't
 work as a model. So builds go directly to supporters instead, through
 Ko-fi or Patreon, and installation takes one extra step: "Load unpacked"
 on Chromium, an `.xpi` on Firefox once signing is in place. See
-[INSTALL.md](INSTALL.md).
+[INSTALLATION.md](INSTALLATION.md).
 
 ## Is it really free software if I donate for it?
 
@@ -20,7 +20,7 @@ gets the full source and every right the GPL grants: use it, study it,
 modify it, share it. The donation buys convenience and continuity, not
 permission. Nothing you agree to when supporting the project takes those
 rights away, and if anything anywhere ever contradicts that, the GPL wins.
-Full detail: [LICENSING.md](../LICENSING.md).
+Full detail: [LICENSING.md](LICENSING.md).
 
 ## Can I share my copy?
 
@@ -46,7 +46,7 @@ On top of that, OmniBlock adds six protection levels instead of an on/off
 switch, an independent always-on Security Shield, and one interface across
 five languages. It doesn't claim to beat uBlock Origin everywhere, because
 on Chromium that would not be true — see "Positioning, honestly" in the
-[README](../README.md).
+[README](README.md).
 
 ## Does it slow my browser?
 
@@ -117,7 +117,7 @@ to sync through; export/import is the whole mechanism, by design.
 
 The GPL means the source doesn't stop existing along with the project —
 anyone who has a copy keeps every right to it, including the right to fork
-it under a new name and icon (see [TRADEMARK.md](../TRADEMARK.md)).
+it under a new name and icon (see [TRADEMARK.md](TRADEMARK.md)).
 Subscribed filter lists keep updating from their own upstream hosts
 independent of OmniBlock's own maintenance. What would stall is the
 compiled rulesets and the scriptlet library bundled into new releases —

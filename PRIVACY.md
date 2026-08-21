@@ -119,7 +119,7 @@ request `storage`, `scripting`, and `alarms`):
 - **Firefox:** `webRequest` + `webRequestBlocking` — OmniBlock's own
   matching engine runs over this path on Firefox instead of
   `declarativeNetRequest`, for full uBlock-Origin-class filtering (see
-  "Positioning, honestly" in the [README](../README.md)) — plus
+  "Positioning, honestly" in the [README](README.md)) — plus
   `webNavigation`, used only to reset the per-tab blocked-request counter
   when a new page navigation commits.
 
