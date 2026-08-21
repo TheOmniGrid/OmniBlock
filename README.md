@@ -199,30 +199,54 @@ will get a copy anyway.
 OmniBlock is one of a family of tools sharing a design language and a philosophy
 — modern, fast, privacy-respecting, no telemetry:
 
-**OmniTheme** · **OmniBlock** · **OmniCleaner** · **OmniAPO** · **OmniEQ** · **OmniPlay** · **OmniScale** · **OmniShade** · **OmniVisuals** · **OmniGPU** · **OmniVex Gaming Wrappers**
+**OmniTheme** · **OmniBlock** · **OmniCleaner** · **OmniAPO** · **OmniEQ** · **OmniPlay** · **OmniScale** · **OmniShade** · **OmniVisuals** · **OmniGPU** · **OmniWrappers**
 
-<sub>**OmniVex Gaming Wrappers** is four Direct3D compatibility installers — OmniDXVK, OmniDxWrapper, OmniVKD3D and OmniVoodoo2.</sub>
+<sub>**OmniWrappers** is four Direct3D compatibility installers — OmniDXVK, OmniDxWrapper, OmniVKD3D and OmniVoodoo2.</sub>
 
 <sub>Tuned for framerate, mixed for headroom, sharp to the pixel. Donationware
 tools for gamers and audiophiles — audio, graphics, and a bit of privacy too.</sub>
 
-## Support and bugs
+More at [github.com/TheOmniGrid](https://github.com/TheOmniGrid).
 
-Found something broken? [Open an issue](../../issues/new/choose) — bug reports
-are welcome from everyone, supporter or not.
+---
 
-Security vulnerabilities: read [SECURITY.md](SECURITY.md) first; please do not
-open a public issue for those.
+## Credit
 
-## Licensing at a glance
+OmniBlock stands on the filter lists and blocking engine maintained by others.
 
-- **The software** is GPL-3.0-or-later. You get the source, and you may study, modify and share it.
-- **The name, logo and OmniVex identity** are not covered by that licence. Fork the code freely; give the fork its own name.
+It bundles **[uBlock Origin's uAssets](https://github.com/uBlockOrigin/uAssets)** filter
+rules and scriptlet/redirect resources (GPL-3.0), **EasyList** and **EasyPrivacy**
+(GPL-3.0-or-later, dual CC BY-SA 3.0+), **Fanboy's Cookie Monster / EasyList Cookie List**
+(CC BY 3.0), and **[HaGeZi's DNS Blocklists](https://github.com/hagezi/dns-blocklists)**
+(GPL-3.0). Bundling GPL-3.0 rules and data into the package this way is what makes the
+combined work GPL-3.0 as a whole.
 
-Full text: [LICENSING.md](LICENSING.md) · [TRADEMARK.md](TRADEMARK.md) · [Third-party notices](THIRD-PARTY-NOTICES.md)
+Matching is done by **[Ghostery's adblocker engine](https://github.com/ghostery/adblocker)**
+(MPL-2.0), alongside `tldts` (MIT), `webextension-polyfill` (MPL-2.0) and Svelte (MIT).
+
+Full attribution in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
+**Licensing at a glance:** the software is GPL-3.0-or-later — you get the source, and you
+may study, modify and share it. The name, logo and OmniVex identity are not covered by that
+licence; fork the code freely, but give the fork its own name.
+[LICENSING.md](LICENSING.md) · [TRADEMARK.md](TRADEMARK.md)
+
+---
+
+## Contact
+
+Found something broken? [Open an issue](../../issues/new/choose) — bug reports are welcome
+from everyone, supporter or not.
+
+Security vulnerabilities: read [SECURITY.md](SECURITY.md) first; please do not open a
+public issue for those.
+
+**omnivex@theomnigrid.biz**
 
 ---
 
 <div align="center">
-<sub>Built by <b>OmniVex</b> · No telemetry, no tracking, no compromise</sub>
+
+Copyright © 2026 OmniVex · GPL-3.0-or-later · The OmniVex name and logo are not covered by that licence.
+
 </div>
