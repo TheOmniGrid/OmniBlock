@@ -1,6 +1,5 @@
 <!--
-Ready-to-paste copy for OmniBlock's Patreon page. Replace bracketed notes
-and PATREON_LINK/KOFI_LINK placeholders before publishing.
+Ready-to-paste copy for OmniBlock's Patreon page.
 -->
 
 # OmniBlock
@@ -20,7 +19,7 @@ OmniBlock blocks 623,896 domains out of the box and up to 694,738 at its
 highest level, compiled from fourteen maintained filter sources. It's free
 software (GPL-3.0-or-later) and donationware: it isn't on the Chrome Web
 Store or addons.mozilla.org, and the only way to get a build is directly
-from this page or from [Ko-fi](KOFI_LINK).
+from this page or from [Ko-fi](https://ko-fi.com/theomnigrid).
 
 Six levels instead of an on/off switch. A Security Shield that blocks
 malware, phishing, and fake-shop domains independently of your ad-blocking

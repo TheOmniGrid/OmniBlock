@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="assets/icon-128.png" width="96" alt="OmniBlock">
-
-# OmniBlock
+<img src="assets/banner-1400x560.png" alt="OmniBlock — a cleaner web" width="820">
 
 **A cleaner web. Two browsers. No telemetry.**
 
@@ -10,20 +8,22 @@ A content blocker for Chromium and Firefox — six protection levels, an always-
 security shield, custom lists, and per-site control.
 Part of the [OmniVex](#the-omnivex-suite) suite.
 
-![Version](https://img.shields.io/badge/version-0.12.0-3B82F6?style=flat-square)
-![License](https://img.shields.io/badge/license-GPL--3.0--or--later-3B82F6?style=flat-square)
-![Browsers](https://img.shields.io/badge/browsers-Chromium%20%C2%B7%20Firefox-3B82F6?style=flat-square)
-![Languages](https://img.shields.io/badge/languages-EN%20DE%20ES%20FR%20RO-3B82F6?style=flat-square)
-![Telemetry](https://img.shields.io/badge/telemetry-none-4ADE80?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.12.0-3B82F6?style=for-the-badge)
+![License](https://img.shields.io/badge/license-GPL--3.0--or--later-3B82F6?style=for-the-badge)
+![Browsers](https://img.shields.io/badge/Chromium%20%C2%B7%20Firefox-3B82F6?style=for-the-badge)
+![Languages](https://img.shields.io/badge/EN%20DE%20ES%20FR%20RO-3B82F6?style=for-the-badge)
+![Telemetry](https://img.shields.io/badge/telemetry-none-4ADE80?style=for-the-badge)
 
-[**Get OmniBlock**](#get-omniblock) · [Features](#what-it-does) · [Install](docs/INSTALL.md) · [FAQ](docs/FAQ.md) · [Changelog](CHANGELOG.md)
+[**Get OmniBlock**](#get-omniblock) · [Features](#what-it-does) · [Install](docs/INSTALL.md) · [FAQ](docs/FAQ.md) · [Privacy](docs/PRIVACY.md) · [Changelog](CHANGELOG.md)
 
 </div>
+
+<img src="assets/stats-strip.png" alt="623,896 domains blocked by default · 14 maintained filter sources · 5 fully translated languages · 0 bytes of telemetry" width="100%">
 
 ---
 
 <div align="center">
-<img src="assets/screenshots/popup-hero.png" width="340" alt="The OmniBlock popup">
+<img src="assets/screenshots/popup-hero.png" width="340" alt="The OmniBlock popup: one dial, six levels, and a security shield">
 </div>
 
 ## What it does
@@ -36,7 +36,11 @@ It is built around one idea: blocking should be something you *tune*, not
 something you fight. One dial, six levels, and a security shield that stays on
 even when you turn everything else off.
 
+<img src="assets/feature-grid.png" alt="Six protection levels · Always-on Security Shield · Element picker · Custom lists and My Filters · Per-site trust · Zero telemetry" width="100%">
+
 ### Six protection levels
+
+<img src="assets/levels.png" alt="Protection levels from Off through Fortress, with the distinct domain count blocked at each" width="100%">
 
 | Level | | What it blocks | Distinct domains |
 |---|---|---|---:|
@@ -81,9 +85,15 @@ you have to remember to set.
 <td><img src="assets/screenshots/picker.png" alt="Element picker"><br><sub><b>Element picker</b> — click anything, and it stays gone.</sub></td>
 <td><img src="assets/screenshots/dashboard-myfilters.png" alt="My Filters"><br><sub><b>My Filters</b> — uBlock-Origin-style syntax, validated as you type.</sub></td>
 </tr>
+<tr>
+<td><img src="assets/screenshots/dashboard-stats.png" alt="Statistics dashboard"><br><sub><b>Statistics</b> — local-only, and honest about what each engine can actually see.</sub></td>
+<td><img src="assets/screenshots/popup-de.png" alt="The popup in German"><br><sub><b>Five languages</b> — the complete interface, not just the menus.</sub></td>
+</tr>
 </table>
 
 ## Fast by construction
+
+<img src="assets/engines.png" alt="Chromium uses native declarativeNetRequest with zero JavaScript in the request path; Firefox uses full webRequest blocking with the Ghostery engine" width="100%">
 
 On Chromium, OmniBlock runs **no JavaScript in the request path at all**. Blocking
 is handled by the browser's own native filtering engine from precompiled rulesets,
@@ -145,7 +155,9 @@ addons.mozilla.org, and it is not sold. It is supported by the people who use it
 
 <div align="center">
 
-### [☕ Support on Ko-fi](KOFI_LINK) · [★ Become a patron](PATREON_LINK)
+<a href="https://ko-fi.com/theomnigrid"><img src="assets/btn-kofi.png" alt="Support OmniBlock on Ko-fi" width="240"></a>
+&nbsp;&nbsp;
+<a href="https://www.patreon.com/TheOmniGrid"><img src="assets/btn-patreon.png" alt="Become a patron on Patreon" width="240"></a>
 
 </div>
 
@@ -162,12 +174,20 @@ will get a copy anyway.
 
 **Installation takes about a minute:** [docs/INSTALL.md](docs/INSTALL.md).
 
+> **Note:** this repository is the showcase, not the delivery mechanism. It
+> deliberately contains no source code and no builds — those go directly to
+> supporters, with the complete source alongside every build, as the GPL
+> requires.
+
 ## The OmniVex suite
 
 OmniBlock is one of a family of tools sharing a design language and a philosophy
 — modern, fast, privacy-respecting, no telemetry:
 
 **OmniTheme** · **OmniBlock** · **OmniAPO** · **OmniEQ** · **OmniPlay** · **OmniScale** · **OmniShade**
+
+<sub>Tuned for framerate, mixed for headroom, sharp to the pixel. Donationware
+tools for gamers and audiophiles — audio, graphics, and a bit of privacy too.</sub>
 
 ## Support and bugs
 

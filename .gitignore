@@ -1,3 +1,41 @@
+# This repository is a SHOWCASE, not a delivery mechanism.
+#
+# It must never contain OmniBlock's source code, a build, or an installer.
+# OmniBlock is donationware: builds go directly to supporters, with the
+# complete source alongside every build as the GPL requires. Publishing
+# either here would defeat that.
+#
+# A .gitignore only stops an accidental `git add .` -- the real guard is
+# `node tools/check-public-repo.mjs` in the source repository, which fails
+# loudly if any of this ever lands here. Run it before every publish.
+
+# --- builds, packages, installers -------------------------------------------
+*.zip
+*.xpi
+*.crx
+*.exe
+*.msi
+*.7z
+*.tar.gz
+.output/
+dist/
+build/
+artifacts/
+
+# --- source and toolchain ---------------------------------------------------
+src/
+tools/
+node_modules/
+*.ts
+*.svelte
+*.mjs
+package.json
+pnpm-lock.yaml
+wxt.config.*
+tsconfig*.json
+manifest.json
+
+# --- noise ------------------------------------------------------------------
 .DS_Store
 Thumbs.db
 *.log

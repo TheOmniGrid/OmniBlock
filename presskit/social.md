@@ -1,6 +1,5 @@
 <!--
-Ready-to-paste launch copy for social platforms. Replace KOFI_LINK /
-PATREON_LINK with the real URLs before posting. Screenshot filenames refer
+Ready-to-paste launch copy for social platforms. Screenshot filenames refer
 to assets/screenshots/*.png, produced separately.
 -->
 
@@ -8,9 +7,9 @@ to assets/screenshots/*.png, produced separately.
 
 > OmniBlock: a content blocker for Chrome, Edge, Brave, Vivaldi, Opera, and
 > Firefox. Six protection levels, an always-on security shield, zero
-> telemetry. Free software, donationware, not on any store. KOFI_LINK
+> telemetry. Free software, donationware, not on any store. https://ko-fi.com/theomnigrid
 
-(209 characters, room to spare for a link shortener or hashtag.)
+(228 characters, room to spare for a hashtag.)
 
 **Screenshot:** `popup-hero.png` — the popup is the whole pitch in one
 image: a dial, a shield, no clutter.
@@ -24,7 +23,7 @@ image: a dial, a shield, no clutter.
 > Security Shield that's on even at level 0, and no telemetry of any kind.
 > It's free software (GPL-3.0-or-later) and donationware: not on the
 > Chrome Web Store, not on AMO, supported directly by the people who use
-> it. Installation takes about a minute. KOFI_LINK · PATREON_LINK
+> it. Installation takes about a minute. https://ko-fi.com/theomnigrid · https://www.patreon.com/TheOmniGrid
 
 **Screenshot:** `dashboard-lists.png` — every built-in list with its real
 rule count, and whether it is active at the level you picked. Concrete,
@@ -92,7 +91,7 @@ and what it costs.
 >
 > It's free software — GPL-3.0-or-later — and donationware: not on the
 > Chrome Web Store, not on addons.mozilla.org. Builds go directly to
-> supporters through Ko-fi (KOFI_LINK) or Patreon (PATREON_LINK), and if
+> supporters through Ko-fi (https://ko-fi.com/theomnigrid) or Patreon (https://www.patreon.com/TheOmniGrid), and if
 > you can't support it right now, ask anyway — you'll get a copy.
 > Installation takes about a minute; see docs/INSTALL.md in the repo.
 
