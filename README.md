@@ -170,13 +170,11 @@ override it at any time in the settings.
 OmniBlock is **donationware**. It is not on the Chrome Web Store or on
 addons.mozilla.org, and it is not sold. It is supported by the people who use it.
 
-<div align="center">
-
-<a href="https://ko-fi.com/theomnigrid"><img src="assets/btn-kofi.png" alt="Support OmniBlock on Ko-fi" width="240"></a>
-&nbsp;&nbsp;
-<a href="https://www.patreon.com/TheOmniGrid"><img src="assets/btn-patreon.png" alt="Become a patron on Patreon" width="240"></a>
-
-</div>
+<p align="center">
+  <a href="https://www.patreon.com/TheOmniGrid"><img src="assets/support-patreon.svg" height="64" alt="Support OmniBlock on Patreon"></a>
+  &nbsp;&nbsp;
+  <a href="https://ko-fi.com/theomnigrid"><img src="assets/support-kofi.svg" height="64" alt="Support OmniBlock on Ko-fi"></a>
+</p>
 
 Supporters get the packaged, ready-to-install build for both browsers, the
 complete source, and new releases as they land.

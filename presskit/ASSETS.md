@@ -24,8 +24,10 @@ so they stay in step with what the software actually does.
 | `feature-grid.png` | 1400×712 | Six features as cards |
 | `levels.png` | 1400×660 | The six protection levels and the domain count at each |
 | `engines.png` | 1400×600 | Chromium vs Firefox, and the honest positioning |
-| `btn-kofi.png` | 440×104 | Ko-fi call-to-action button (link it to the Ko-fi page) |
-| `btn-patreon.png` | 440×104 | Patreon call-to-action button |
+| `support-patreon.svg` | 520×116 | **The donation button.** Vector, used in the README at `height="64"`. Same construction OmniShade ships, so the suite reads as one family |
+| `support-kofi.svg` | 520×116 | As above, Ko-fi |
+| `btn-kofi.png` | 440×104 | Raster fallback, for donation platforms that will not accept an SVG upload |
+| `btn-patreon.png` | 440×104 | Raster fallback, as above |
 
 ## Screenshots
 
@@ -33,6 +35,8 @@ so they stay in step with what the software actually does.
 (popups at 680px). They are produced by the capture harness in the source
 repository, not hand-edited — a UI change makes them stale, so re-run it and
 re-sync rather than touching them.
+
+<sub>The two `support-*.svg` buttons deliberately keep each platform’s OWN brand colour — Patreon coral, Ko-fi cyan — rather than the OmniVex violet. They are other people’s marks; recolouring them would misrepresent them.</sub>
 
 ## Regenerating
 
