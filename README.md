@@ -30,10 +30,14 @@
   <a href="#fast-by-construction"><img alt="Performance" src="https://img.shields.io/badge/Performance-2B2545?style=for-the-badge"></a>
   <a href="#see-it"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
   <a href="#privacy-by-construction"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
-  <a href="docs/INSTALL.md"><img alt="Installation" src="https://img.shields.io/badge/Installation-2B2545?style=for-the-badge"></a>
-  <a href="docs/FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
+  <a href="INSTALLATION.md"><img alt="Installation" src="https://img.shields.io/badge/Installation-2B2545?style=for-the-badge"></a>
+  <a href="FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
+  <a href="SUPPORT.md"><img alt="Support" src="https://img.shields.io/badge/Support-2B2545?style=for-the-badge"></a>
   <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-2B2545?style=for-the-badge"></a>
 </p>
+
+> [!IMPORTANT]
+> **Documentation-only repository.** This public repository contains OmniBlock documentation, approved artwork, and screenshots—not the extension source tree, packaged builds, store payloads, signing material, or private build infrastructure. Official distribution remains outside GitHub.
 
 <img src="assets/stats-strip.png" alt="623,896 domains blocked by default · 14 maintained filter sources · 5 fully translated languages · 0 bytes of telemetry" width="100%">
 
@@ -91,23 +95,6 @@ you have to remember to set.
 - **Five languages** — see below.
 - **A dark, deliberate interface** — part of the OmniVex design language, not a template.
 
-## See it
-
-<table>
-<tr>
-<td width="50%"><img src="assets/screenshots/dashboard-lists.png" alt="Filter list management"><br><sub><b>Lists</b> — every built-in list, what it costs, and whether it is active at your level.</sub></td>
-<td width="50%"><img src="assets/screenshots/dashboard-shield.png" alt="The Security Shield"><br><sub><b>Security Shield</b> — threat protection on its own switch, on even at level zero.</sub></td>
-</tr>
-<tr>
-<td><img src="assets/screenshots/picker.png" alt="Element picker"><br><sub><b>Element picker</b> — click anything, and it stays gone.</sub></td>
-<td><img src="assets/screenshots/dashboard-myfilters.png" alt="My Filters"><br><sub><b>My Filters</b> — uBlock-Origin-style syntax, validated as you type.</sub></td>
-</tr>
-<tr>
-<td><img src="assets/screenshots/dashboard-stats.png" alt="Statistics dashboard"><br><sub><b>Statistics</b> — local-only, and honest about what each engine can actually see.</sub></td>
-<td><img src="assets/screenshots/popup-de.png" alt="The popup in German"><br><sub><b>Five languages</b> — the complete interface, not just the menus.</sub></td>
-</tr>
-</table>
-
 ## Fast by construction
 
 <img src="assets/engines.png" alt="Chromium uses native declarativeNetRequest with zero JavaScript in the request path; Firefox uses full webRequest blocking with the Ghostery engine" width="100%">
@@ -143,6 +130,29 @@ uBO's own league.
 
 Anyone claiming otherwise is selling something.
 
+## Five languages
+
+English, Deutsch, Español, Français and Română — the complete interface, not just
+the menus. OmniBlock follows your browser's language automatically, and you can
+override it at any time in the settings.
+
+## See it
+
+<table>
+<tr>
+<td width="50%"><img src="assets/screenshots/dashboard-lists.png" alt="Filter list management"><br><sub><b>Lists</b> — every built-in list, what it costs, and whether it is active at your level.</sub></td>
+<td width="50%"><img src="assets/screenshots/dashboard-shield.png" alt="The Security Shield"><br><sub><b>Security Shield</b> — threat protection on its own switch, on even at level zero.</sub></td>
+</tr>
+<tr>
+<td><img src="assets/screenshots/picker.png" alt="Element picker"><br><sub><b>Element picker</b> — click anything, and it stays gone.</sub></td>
+<td><img src="assets/screenshots/dashboard-myfilters.png" alt="My Filters"><br><sub><b>My Filters</b> — uBlock-Origin-style syntax, validated as you type.</sub></td>
+</tr>
+<tr>
+<td><img src="assets/screenshots/dashboard-stats.png" alt="Statistics dashboard"><br><sub><b>Statistics</b> — local-only, and honest about what each engine can actually see.</sub></td>
+<td><img src="assets/screenshots/popup-de.png" alt="The popup in German"><br><sub><b>Five languages</b> — the complete interface, not just the menus.</sub></td>
+</tr>
+</table>
+
 ## Privacy by construction
 
 **No telemetry. No analytics. No accounts. No servers.**
@@ -157,13 +167,7 @@ Your browsing history never leaves your machine, because nothing ever sends it
 anywhere. Statistics are computed and stored locally. There is no opt-out,
 because there is nothing to opt out of.
 
-Full detail: [Privacy Policy](docs/PRIVACY.md).
-
-## Five languages
-
-English, Deutsch, Español, Français and Română — the complete interface, not just
-the menus. OmniBlock follows your browser's language automatically, and you can
-override it at any time in the settings.
+Full detail: [Privacy Policy](PRIVACY.md).
 
 ## Get OmniBlock
 
@@ -187,12 +191,26 @@ receives the source with it, along with every freedom that licence grants.
 If you cannot afford to give anything, that is genuinely fine — say so and you
 will get a copy anyway.
 
-**Installation takes about a minute:** [docs/INSTALL.md](docs/INSTALL.md).
+**Installation takes about a minute:** [INSTALLATION.md](INSTALLATION.md).
 
 > **Note:** this repository is the showcase, not the delivery mechanism. It
 > deliberately contains no source code and no builds — those go directly to
 > supporters, with the complete source alongside every build, as the GPL
 > requires.
+
+## Documentation
+
+| | |
+|---|---|
+| [Installation](INSTALLATION.md) | Install the packaged extension in Chrome or Firefox |
+| [Privacy](PRIVACY.md) | Local data, network requests and telemetry boundaries |
+| [FAQ](FAQ.md) | Common installation, filtering and browser questions |
+| [Support](SUPPORT.md) | Useful reports, privacy redaction and contact routes |
+| [Security](SECURITY.md) | Private vulnerability reporting |
+| [Contributing](CONTRIBUTING.md) | Documentation and reproducible-report scope |
+| [Changelog](CHANGELOG.md) | Release history |
+| [Licensing](LICENSING.md) | GPL terms, distribution and source availability |
+| [Third-party notices](THIRD-PARTY-NOTICES.md) | Upstream engines, lists and licences |
 
 ## The OmniVex suite
 

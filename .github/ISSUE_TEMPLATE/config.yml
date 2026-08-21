@@ -6,7 +6,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Frequently asked questions
-    url: https://github.com/TheOmniGrid/OmniBlock/blob/main/docs/FAQ.md
+    url: https://github.com/TheOmniGrid/OmniBlock/blob/main/FAQ.md
     about: Read this before filing — installation, breakage, privacy, and licensing questions are answered here.
   - name: Support OmniBlock on Ko-fi
     url: https://ko-fi.com/theomnigrid

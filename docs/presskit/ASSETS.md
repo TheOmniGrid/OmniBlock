@@ -1,6 +1,6 @@
 # Brand assets — what goes where
 
-Every image in `../assets/` and the slot it was sized for. All of them are
+Every image in `../../assets/` and the slot it was sized for. All of them are
 rendered from the product's own icon geometry and the README's own numbers,
 so they stay in step with what the software actually does.
 
@@ -51,6 +51,6 @@ pnpm screenshots    # re-captures the screenshots from a real build
 ```
 
 The numbers baked into `stats-strip.png` and `levels.png` come from a single
-`FACTS` block in that generator, mirroring the table in [the README](../README.md).
+`FACTS` block in that generator, mirroring the table in [the README](../../README.md).
 If the upstream filter lists move, change both together — otherwise the
 graphics start making claims the software no longer backs.

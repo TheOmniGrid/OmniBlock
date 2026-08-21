@@ -93,7 +93,7 @@ and what it costs.
 > Chrome Web Store, not on addons.mozilla.org. Builds go directly to
 > supporters through Ko-fi (https://ko-fi.com/theomnigrid) or Patreon (https://www.patreon.com/TheOmniGrid), and if
 > you can't support it right now, ask anyway — you'll get a copy.
-> Installation takes about a minute; see docs/INSTALL.md in the repo.
+> Installation takes about a minute; see INSTALLATION.md in the repo.
 
 **Screenshot:** a two-up of `dashboard-myfilters.png` and `picker.png` —
 shows both the power-user path (hand-written rules) and the zero-effort
