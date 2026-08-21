@@ -1,30 +1,47 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner-1600x500.png" alt="OmniBlock — content blocker for Chromium and Firefox" width="100%">
+</p>
 
-<img src="assets/banner-1400x560.png" alt="OmniBlock — a cleaner web" width="820">
+<h1 align="center">OmniBlock</h1>
+<p align="center"><b>A content blocker for Chromium and Firefox — six protection levels, an always-on security shield, custom lists and per-site control.</b></p>
+<p align="center">Part of the <a href="#the-omnivex-suite">OmniVex</a> suite.</p>
 
-**A cleaner web. Two browsers. No telemetry.**
+<p align="center">
+  <a href="https://www.patreon.com/TheOmniGrid"><img alt="Get it on Patreon" src="https://img.shields.io/badge/Get%20it%20on-Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
+  &nbsp;
+  <a href="https://ko-fi.com/theomnigrid"><img alt="Get it on Ko-fi" src="https://img.shields.io/badge/Get%20it%20on-Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
+</p>
 
-A content blocker for Chromium and Firefox — six protection levels, an always-on
-security shield, custom lists, and per-site control.
-Part of the [OmniVex](#the-omnivex-suite) suite.
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-0.12.0-8A7BFF?style=flat-square">
+  <img alt="Browsers" src="https://img.shields.io/badge/browsers-Chromium%20%C2%B7%20Firefox-0078D4?style=flat-square">
+  <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20·%20DE%20·%20ES%20·%20FR%20·%20RO-8A7BFF?style=flat-square">
+  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-2EA043?style=flat-square">
+  <img alt="License" src="https://img.shields.io/badge/license-GPL--3.0--or--later-6A5BDB?style=flat-square">
+</p>
 
-![Version](https://img.shields.io/badge/version-0.12.0-8A7BFF?style=for-the-badge)
-![License](https://img.shields.io/badge/license-GPL--3.0--or--later-8A7BFF?style=for-the-badge)
-![Browsers](https://img.shields.io/badge/Chromium%20%C2%B7%20Firefox-8A7BFF?style=for-the-badge)
-![Languages](https://img.shields.io/badge/EN%20DE%20ES%20FR%20RO-8A7BFF?style=for-the-badge)
-![Telemetry](https://img.shields.io/badge/telemetry-none-00C66D?style=for-the-badge)
-
-[**Get OmniBlock**](#get-omniblock) · [Features](#what-it-does) · [Install](docs/INSTALL.md) · [FAQ](docs/FAQ.md) · [Privacy](docs/PRIVACY.md) · [Changelog](CHANGELOG.md)
-
-</div>
+<!-- Quick navigation. These are clickable: each chip jumps to a section of this
+     page, or to the document it names. Anchors are GitHub's own slugs for the
+     headings below -- if a heading is renamed, its chip has to be renamed too. -->
+<p align="center">
+  <a href="#get-omniblock"><img alt="Get OmniBlock" src="https://img.shields.io/badge/⬇%20Get%20OmniBlock-8A7BFF?style=for-the-badge"></a>
+  <a href="#what-it-does"><img alt="Features" src="https://img.shields.io/badge/Features-2B2545?style=for-the-badge"></a>
+  <a href="#six-protection-levels"><img alt="Levels" src="https://img.shields.io/badge/Levels-2B2545?style=for-the-badge"></a>
+  <a href="#see-it"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
+  <a href="#fast-by-construction"><img alt="Performance" src="https://img.shields.io/badge/Performance-2B2545?style=for-the-badge"></a>
+  <a href="#privacy-by-construction"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
+  <a href="docs/INSTALL.md"><img alt="Install" src="https://img.shields.io/badge/Install-2B2545?style=for-the-badge"></a>
+  <a href="docs/FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
+  <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-2B2545?style=for-the-badge"></a>
+</p>
 
 <img src="assets/stats-strip.png" alt="623,896 domains blocked by default · 14 maintained filter sources · 5 fully translated languages · 0 bytes of telemetry" width="100%">
 
----
+<p align="center">
+  <img src="assets/screenshots/popup-hero.png" width="340" alt="The OmniBlock popup: one dial, six levels, and a security shield">
+</p>
 
-<div align="center">
-<img src="assets/screenshots/popup-hero.png" width="340" alt="The OmniBlock popup: one dial, six levels, and a security shield">
-</div>
+---
 
 ## What it does
 
