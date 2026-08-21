@@ -8,11 +8,11 @@ A content blocker for Chromium and Firefox — six protection levels, an always-
 security shield, custom lists, and per-site control.
 Part of the [OmniVex](#the-omnivex-suite) suite.
 
-![Version](https://img.shields.io/badge/version-0.12.0-3B82F6?style=for-the-badge)
-![License](https://img.shields.io/badge/license-GPL--3.0--or--later-3B82F6?style=for-the-badge)
-![Browsers](https://img.shields.io/badge/Chromium%20%C2%B7%20Firefox-3B82F6?style=for-the-badge)
-![Languages](https://img.shields.io/badge/EN%20DE%20ES%20FR%20RO-3B82F6?style=for-the-badge)
-![Telemetry](https://img.shields.io/badge/telemetry-none-4ADE80?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-0.12.0-8A7BFF?style=for-the-badge)
+![License](https://img.shields.io/badge/license-GPL--3.0--or--later-8A7BFF?style=for-the-badge)
+![Browsers](https://img.shields.io/badge/Chromium%20%C2%B7%20Firefox-8A7BFF?style=for-the-badge)
+![Languages](https://img.shields.io/badge/EN%20DE%20ES%20FR%20RO-8A7BFF?style=for-the-badge)
+![Telemetry](https://img.shields.io/badge/telemetry-none-00C66D?style=for-the-badge)
 
 [**Get OmniBlock**](#get-omniblock) · [Features](#what-it-does) · [Install](docs/INSTALL.md) · [FAQ](docs/FAQ.md) · [Privacy](docs/PRIVACY.md) · [Changelog](CHANGELOG.md)
 
