@@ -12,7 +12,9 @@ so they stay in step with what the software actually does.
 | `kofi-cover.png` | 1200×300 | Ko-fi page cover banner |
 | `patreon-cover.png` | 1600×400 | Patreon page cover banner |
 | `social-preview.png` | 1280×640 | GitHub **Settings → Social preview** (must be uploaded by hand — GitHub has no API for it), and as the link-preview card anywhere else |
-| `banner-1400x560.png` | 1400×560 | Wide hero banner — README top, blog posts, forum headers |
+| `banner-animated.gif` | 1200×375 | **The README hero.** Looping, 2.1 s, 29 frames, ~105 KB. Same size and cadence as OmniTheme’s `cover.gif` so the suite headers sit together |
+| `banner-1600x500.png` | 1600×500 | Static version of the same banner, for anywhere animation is unwanted or unsupported |
+| `banner-1400x560.png` | 1400×560 | Older wide hero — blog posts, forum headers |
 | `tile-440x280.png` | 440×280 | Compact promo tile where a squarer crop is wanted |
 | `icon-128.png` | 128×128 | Small inline logo |
 
