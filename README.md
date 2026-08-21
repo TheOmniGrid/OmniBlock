@@ -253,18 +253,26 @@ licence; fork the code freely, but give the fork its own name.
 
 ## Contact
 
-Found something broken? [Open an issue](../../issues/new/choose) — bug reports are welcome
-from everyone, supporter or not.
+Use public channels only for information that is safe to share. Remove usernames, local paths,
+account identifiers, licence data, and other personal information from screenshots and logs.
 
-Security vulnerabilities: read [SECURITY.md](SECURITY.md) first; please do not open a
-public issue for those.
+| Channel | Use |
+|---|---|
+| [GitHub Issues](../../issues/new/choose) | Reproducible bugs, compatibility reports, and documentation corrections |
+| [GitHub Discussions](../../discussions) | Questions, ideas, and community support |
+| [Security](SECURITY.md) | Private vulnerability reporting — never use a public issue |
+| [Email](mailto:omnivex@theomnigrid.biz) | Private support, delivery, or licensing questions |
 
-**omnivex@theomnigrid.biz**
+Support is best-effort. See [SUPPORT.md](SUPPORT.md) and [CONTRIBUTING.md](CONTRIBUTING.md)
+for repository scope and reporting guidance.
 
 ---
 
-<div align="center">
-
-Copyright © 2026 OmniVex · GPL-3.0-or-later · The OmniVex name and logo are not covered by that licence.
-
-</div>
+<p align="center">
+  <strong>OmniBlock</strong><br>
+  <a href="https://github.com/TheOmniGrid">The OmniGrid on GitHub</a> ·
+  <a href="https://ko-fi.com/theomnigrid">Ko-fi</a> ·
+  <a href="https://www.patreon.com/TheOmniGrid">Patreon</a><br><br>
+  <sub>Copyright © 2026 OmniVex · GPL-3.0-or-later · <a href="LICENSING.md">Licensing</a></sub><br>
+  <sub>The OmniVex name and logo are not covered by the GPL licence.</sub>
+</p>
