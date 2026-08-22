@@ -273,6 +273,6 @@ for repository scope and reporting guidance.
   <a href="https://github.com/TheOmniGrid">The OmniGrid on GitHub</a> ·
   <a href="https://ko-fi.com/theomnigrid">Ko-fi</a> ·
   <a href="https://www.patreon.com/TheOmniGrid">Patreon</a><br><br>
-  <sub>Copyright © 2026 OmniVex · GPL-3.0-or-later · <a href="LICENSING.md">Licensing</a></sub><br>
+  <sub>Copyright © 2026 OmniVex · GPL-3.0-or-later · <a href="LICENSING.md">Legal &amp; licensing</a></sub><br>
   <sub>The OmniVex name and logo are not covered by the GPL licence.</sub>
 </p>
