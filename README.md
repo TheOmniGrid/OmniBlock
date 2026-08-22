@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner-animated.gif?v=20260822-symbol-reactor" alt="OmniBlock — Privacy-first blocking for Chromium and Firefox." width="100%">
+  <img src="assets/banner-animated.gif?v=20260822-premium-motion-v3" alt="OmniBlock — Privacy-first blocking for Chromium and Firefox." width="100%">
 </p>
 
 <h1 align="center">OmniBlock</h1>
