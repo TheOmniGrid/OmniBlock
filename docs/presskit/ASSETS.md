@@ -12,8 +12,8 @@ so they stay in step with what the software actually does.
 | `kofi-cover.png` | 1200×300 | Ko-fi page cover banner |
 | `patreon-cover.png` | 1600×400 | Patreon page cover banner |
 | `social-preview.png` | 1280×640 | GitHub **Settings → Social preview** (must be uploaded by hand — GitHub has no API for it), and as the link-preview card anywhere else |
-| `banner-animated.gif` | 1200×375 | **The README hero.** Looping, 2.1 s, 29 frames, ~105 KB. Same size and cadence as OmniTheme’s `cover.gif` so the suite headers sit together |
-| `banner-1600x500.png` | 1600×500 | Static version of the same banner, for anywhere animation is unwanted or unsupported |
+| `banner-animated.gif` | 1600×500 | **The README hero.** Looping. Hand-managed — not produced by the generator; the README cache-busts it with a `?v=` query, so bump that when it changes |
+| `banner-1600x500.png` | 1600×500 | Static version of the hero, for anywhere animation is unwanted or unsupported. Hand-managed, same as above |
 | `banner-1400x560.png` | 1400×560 | Older wide hero — blog posts, forum headers |
 | `tile-440x280.png` | 440×280 | Compact promo tile where a squarer crop is wanted |
 | `icon-128.png` | 128×128 | Small inline logo |
@@ -42,15 +42,15 @@ re-sync rather than touching them.
 
 ## Regenerating
 
-The generator is **not in this repository**. It lives in the source repo,
-because this one deliberately ships no code:
+Two kinds of asset live here, and the difference matters:
 
-```
-pnpm brand          # rewrites every graphic above into ../OmniBlock-Public/assets/
-pnpm screenshots    # re-captures the screenshots from a real build
-```
+- **Generator-owned** — `social-preview.png`, `avatar-512.png`, `kofi-cover.png`,
+  `patreon-cover.png`, `btn-*.png`, `support-*.svg`. Rendered by a generator in
+  the source repository (this one deliberately ships no code), into a local
+  folder there. `pnpm brand --sync` copies exactly this list across. Anything
+  else is never touched from there.
+- **Hand-managed** — the two banners and everything under `presentation/`.
+  Edited directly in this repository. The generator does not know about them
+  and will not overwrite them.
 
-The numbers baked into `presentation/metrics.png` and `presentation/levels.png`
-mirror the table in [the README](../../README.md).
-If the upstream filter lists move, change both together — otherwise the
-graphics start making claims the software no longer backs.
+Screenshots are a third thing -- see the section above.
