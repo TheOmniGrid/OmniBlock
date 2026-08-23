@@ -22,10 +22,10 @@ so they stay in step with what the software actually does.
 
 | File | Size | Shows |
 |---|---|---|
-| `stats-strip.png` | 1400×190 | The four headline numbers |
-| `feature-grid.png` | 1400×712 | Six features as cards |
-| `levels.png` | 1400×660 | The six protection levels and the domain count at each |
-| `engines.png` | 1400×600 | Chromium vs Firefox, and the honest positioning |
+| `presentation/metrics.png` | 1600×270 | The four headline numbers |
+| `presentation/capabilities.png` | 1600×720 | Six core capabilities in the shared OmniVex presentation system |
+| `presentation/levels.png` | 1600×520 | The six protection levels and the domain count at each |
+| `presentation/engines.png` | 1600×540 | Chromium vs Firefox, and the honest positioning |
 | `support-patreon.svg` | 520×116 | **The donation button.** Vector, used in the README at `height="64"`. Same construction OmniShade ships, so the suite reads as one family |
 | `support-kofi.svg` | 520×116 | As above, Ko-fi |
 | `btn-kofi.png` | 440×104 | Raster fallback, for donation platforms that will not accept an SVG upload |
@@ -50,7 +50,7 @@ pnpm brand          # rewrites every graphic above into ../OmniBlock-Public/asse
 pnpm screenshots    # re-captures the screenshots from a real build
 ```
 
-The numbers baked into `stats-strip.png` and `levels.png` come from a single
-`FACTS` block in that generator, mirroring the table in [the README](../../README.md).
+The numbers baked into `presentation/metrics.png` and `presentation/levels.png`
+mirror the table in [the README](../../README.md).
 If the upstream filter lists move, change both together — otherwise the
 graphics start making claims the software no longer backs.

@@ -40,7 +40,7 @@
 > [!IMPORTANT]
 > **Documentation-only repository.** This public repository contains OmniBlock documentation, approved artwork, and screenshots—not the extension source tree, packaged builds, store payloads, signing material, or private build infrastructure. Official distribution remains outside GitHub.
 
-<img src="assets/stats-strip.png" alt="623,896 domains blocked by default · 14 maintained filter sources · 5 fully translated languages · 0 bytes of telemetry" width="100%">
+<img src="assets/presentation/metrics.png" alt="OmniBlock verified snapshot: 623,896 default domains, 694,738 Fortress domains, 14 maintained sources, and zero usage telemetry" width="100%">
 
 <p align="center">
   <img src="assets/screenshots/popup-hero.png" width="340" alt="The OmniBlock popup: one dial, six levels, and a security shield">
@@ -58,11 +58,11 @@ It is built around one idea: blocking should be something you *tune*, not
 something you fight. One dial, six levels, and a security shield that stays on
 even when you turn everything else off.
 
-<img src="assets/feature-grid.png" alt="Six protection levels · Always-on Security Shield · Element picker · Custom lists and My Filters · Per-site trust · Zero telemetry" width="100%">
+<img src="assets/presentation/capabilities.png" alt="OmniBlock capability map covering tunable protection, the always-on Security Shield, fine control, and native browser performance" width="100%">
 
 ### Six protection levels
 
-<img src="assets/levels.png" alt="Protection levels from Off through Fortress, with the distinct domain count blocked at each" width="100%">
+<img src="assets/presentation/levels.png" alt="OmniBlock protection levels from Off through Fortress, including the distinct domain count at each level" width="100%">
 
 | Level | | What it blocks | Distinct domains |
 |---|---|---|---:|
@@ -98,7 +98,7 @@ you have to remember to set.
 
 ## Fast by construction
 
-<img src="assets/engines.png" alt="Chromium uses native declarativeNetRequest with zero JavaScript in the request path; Firefox uses full webRequest blocking with the Ghostery engine" width="100%">
+<img src="assets/presentation/engines.png" alt="OmniBlock engine comparison: native declarativeNetRequest on Chromium and full webRequest blocking with Ghostery on Firefox" width="100%">
 
 On Chromium, OmniBlock runs **no JavaScript in the request path at all**. Blocking
 is handled by the browser's own native filtering engine from precompiled rulesets,
