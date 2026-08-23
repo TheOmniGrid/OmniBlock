@@ -58,7 +58,7 @@ It is built around one idea: blocking should be something you *tune*, not
 something you fight. One dial, six levels, and a security shield that stays on
 even when you turn everything else off.
 
-<img src="assets/presentation/capabilities.png" alt="OmniBlock capability map covering tunable protection, the always-on Security Shield, fine control, and native browser performance" width="100%">
+<img src="assets/presentation/capabilities.png?v=20260823-visible-numbers-v3" alt="OmniBlock capability map covering tunable protection, the always-on Security Shield, fine control, and native browser performance" width="100%">
 
 ### Six protection levels
 
