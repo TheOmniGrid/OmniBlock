@@ -14,11 +14,11 @@
 
 <!-- Suite metadata: Version · Platform · Languages · Telemetry · Distribution -->
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-0.12.0-8A7BFF?style=flat-square">
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Chromium%20%C2%B7%20Firefox-0078D4?style=flat-square">
-  <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20DE%20%C2%B7%20ES%20%C2%B7%20FR%20%C2%B7%20RO-8A7BFF?style=flat-square">
-  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-2EA043?style=flat-square">
-  <img alt="Distribution" src="https://img.shields.io/badge/distribution-docs%20only-99A3B1?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-8A7BFF?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Chromium%20%C2%B7%20Firefox-57C7FF?style=flat-square">
+  <img alt="Languages: 11" src="https://img.shields.io/badge/languages-11-8A7BFF?style=flat-square">
+  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-00C66D?style=flat-square">
+  <img alt="Distribution" src="https://img.shields.io/badge/distribution-docs%20only-969FAB?style=flat-square&labelColor=30363D">
 </p>
 
 <!-- Quick navigation. These are clickable: each chip jumps to a section of this
@@ -87,13 +87,17 @@ you have to remember to set.
 
 ### Everything else
 
-- **Per-site trust** — one click in the popup, and the site is left alone.
-- **Element picker** — point at anything on a page and hide it for good.
-- **Custom lists** — subscribe to any filter list by URL, in adblock or hosts syntax.
+- **Per-site trust** — one click in the popup, either permanently or only until the browser restarts.
+- **Regional lists** — nine optional language-specific lists, disabled by default and free of rule-budget cost until enabled.
+- **Element picker** — point at anything on a page, preview the generated cosmetic rule, then commit or revert it.
+- **Element zapper** — remove page annoyances for the current visit without saving a rule.
+- **Custom lists** — subscribe to any filter list by URL, in adblock or hosts syntax; Chromium converts safe `$redirect`, `$removeparam` and `$csp` rules to native DNR behavior.
 - **My Filters** — write your own rules, validated line by line as you type.
-- **Statistics** — computed and stored **only on your machine**. On Firefox that means a running total, a 30-day history and your most-blocked domains. On Chromium the browser keeps per-request detail to itself unless an extension asks for an extra permission, which OmniBlock deliberately does not — so there the live per-page count on the toolbar badge is the whole picture, and the Stats page says so rather than inventing numbers it cannot see.
+- **Tracker neutralization** — packaged redirect stubs, tracking-parameter removal and CSP policies where each browser exposes a safe implementation path.
+- **CNAME uncloaking on Firefox** — resolves disguised first-party tracker hosts through Firefox's own DNS API and blocks the real destination when it matches.
+- **Statistics** — a running total, 30-day history and top blocked domains, computed and stored **only on your machine** on both browsers. Chromium's detailed feed is available because OmniBlock ships unpacked and feature-detects the native DNR debug event; unsupported store-packaged contexts show an explanation instead of invented data.
 - **Import / export** — your whole configuration as a single JSON file.
-- **Five languages** — see below.
+- **Eleven languages** — see below.
 - **A dark, deliberate interface** — part of the OmniVex design language, not a template.
 
 ## Fast by construction
@@ -131,11 +135,12 @@ uBO's own league.
 
 Anyone claiming otherwise is selling something.
 
-## Five languages
+## Eleven languages
 
-English, Deutsch, Español, Français and Română — the complete interface, not just
-the menus. OmniBlock follows your browser's language automatically, and you can
-override it at any time in the settings.
+English, Deutsch, Español, Français, Română, Русский, Türkçe, 简体中文, 繁體中文,
+日本語 and 한국어 — the complete interface, not just the menus. OmniBlock follows
+your browser's language automatically, and you can override it at any time without
+restarting the browser. Plural forms follow each locale's CLDR rules.
 
 ## See it
 
@@ -150,7 +155,7 @@ override it at any time in the settings.
 </tr>
 <tr>
 <td><img src="assets/screenshots/dashboard-stats.png" alt="Statistics dashboard"><br><sub><b>Statistics</b> — local-only, and honest about what each engine can actually see.</sub></td>
-<td><img src="assets/screenshots/popup-de.png" alt="The popup in German"><br><sub><b>Five languages</b> — the complete interface, not just the menus.</sub></td>
+<td><img src="assets/screenshots/popup-de.png" alt="The popup in German"><br><sub><b>Eleven languages</b> — the complete interface, not just the menus.</sub></td>
 </tr>
 </table>
 

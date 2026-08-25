@@ -2,6 +2,19 @@
 
 All notable changes to OmniBlock are recorded here, most recent first.
 
+## 1.0.0
+
+- Expanded the complete interface to eleven languages: English, German,
+  Spanish, French, Romanian, Russian, Turkish, Simplified Chinese,
+  Traditional Chinese, Japanese, and Korean.
+- Added permanent and session trust, picker preview/revert, element zapper,
+  nine optional regional list groups, and safe custom-list support for the
+  bounded `$redirect`, `$removeparam`, and `$csp` subset.
+- Added privacy-preserving tracker-parameter neutralization, Firefox CNAME
+  handling, and local statistics on both browsers where the unpacked-browser
+  debugging API is available.
+- Renumbered the public product package to the stable 1.0.0 release line.
+
 ## 0.12.0
 
 An internal cleanup and hardening pass following a full re-audit of the

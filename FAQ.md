@@ -44,7 +44,7 @@ and plays in uBO's own league.
 
 On top of that, OmniBlock adds six protection levels instead of an on/off
 switch, an independent always-on Security Shield, and one interface across
-five languages. It doesn't claim to beat uBlock Origin everywhere, because
+eleven languages. It doesn't claim to beat uBlock Origin everywhere, because
 on Chromium that would not be true — see "Positioning, honestly" in the
 [README](README.md).
 
