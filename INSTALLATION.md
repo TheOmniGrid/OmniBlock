@@ -16,7 +16,7 @@ OmniBlock isn't on the Web Store, "Load unpacked" through Developer mode is
 how every Chromium install works — including the maintainer's own.
 
 1. **Unzip** the build you received (something like
-   `omniblock-0.12.0-chrome.zip`) into a folder you intend to keep. Don't
+   `omniblock-1.0.0-chrome.zip`) into a folder you intend to keep. Don't
    extract it somewhere temporary — the folder's location is part of how
    Chrome identifies the extension (see "Updating" below).
 2. Open `chrome://extensions` — `edge://extensions` on Edge,
@@ -70,7 +70,7 @@ documentation on self-distribution and signing.
 
 Requires Firefox 128 or later.
 
-1. **Download** the `.xpi` you received (e.g. `omniblock-0.12.0-firefox.xpi`)
+1. **Download** the Firefox package you received (e.g. `omniblock-1.0.0-firefox.zip`)
    and save it somewhere you can find it.
 2. In Firefox, open the menu and go to **Add-ons and themes** (or open
    `about:addons` directly).

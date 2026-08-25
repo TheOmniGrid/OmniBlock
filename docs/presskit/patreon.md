@@ -24,7 +24,7 @@ from this page or from [Ko-fi](https://ko-fi.com/theomnigrid).
 Six levels instead of an on/off switch. A Security Shield that blocks
 malware, phishing, and fake-shop domains independently of your ad-blocking
 level — it's on even when you turn everything else off. Per-site trust, an
-element picker, custom filter lists, and a dashboard in five languages.
+element picker, custom filter lists, and a dashboard in eleven languages.
 No telemetry, no accounts, no server — nothing to opt out of, because
 there's nothing collecting anything in the first place.
 

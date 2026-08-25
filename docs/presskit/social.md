@@ -37,7 +37,7 @@ and it shows the product doing the thing rather than a marketing frame.
 > Chromium browsers and Firefox. It's not trying to out-market anything —
 > six protection levels instead of an on/off switch, a security shield
 > that stays on independently of your ad-blocking level, custom filter
-> lists, an element picker, and a dashboard in five languages. No
+> lists, an element picker, and a dashboard in eleven languages. No
 > telemetry, no accounts, no server: the only things it ever talks to are
 > filter-list hosts and whatever URL you add yourself.
 >
@@ -73,7 +73,8 @@ and what it costs.
 > highest level, compiled from fourteen maintained filter sources. Custom
 > list subscriptions, a My Filters editor with uBO-style syntax, an
 > element picker, per-site trust, import/export, and a full interface in
-> English, German, Spanish, French, and Romanian.
+> English, German, Spanish, French, Romanian, Russian, Turkish, Simplified
+> Chinese, Traditional Chinese, Japanese, and Korean.
 >
 > No telemetry, no analytics, no accounts, no server of its own — the
 > only network contact OmniBlock ever makes is to filter-list hosts and
